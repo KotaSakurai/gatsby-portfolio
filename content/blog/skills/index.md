@@ -44,5 +44,9 @@ description: "Sakurawi Skills"
 ## アイコン作成
 アイコンのイラストを書いたりもしています。
 
-<img src="./girl.png" alt="エビフライトライアングル" title="サンプル" width="200">
-<img src="./woman.png" alt="エビフライトライアングル" title="サンプル" width="200">
+### 友人のアイコン
+<img src="./w.png" width="200">
+
+### その他イラスト
+<img src="./girl.png" width="200">
+<img src="./woman.png" width="200">

@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Icon from "./icon"
+import Logo from "./logo"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -25,9 +26,17 @@ const Layout = ({ location, title, children }) => {
             }}
             to={`/`}
           >
-            {title}
+            <Logo></Logo>
           </Link>
         </h1>
+        <div
+          style={{
+            textAlign: `center`,
+          }}
+        >
+          <p>Hello, this is Kota Sakurawi's</p>
+          <p>Portfolio</p>
+        </div>
         <Icon></Icon>
       </div>
     )

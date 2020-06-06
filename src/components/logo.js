@@ -2,12 +2,12 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
-const Icon = () => {
+const Logo = () => {
   const data = useStaticQuery(graphql`
     query {
-      file: file(absolutePath: { regex: "/icon.jpg/" }) {
+      file: file(absolutePath: { regex: "/my_portfolio.png/" }) {
         childImageSharp {
-          fixed(width: 100, height: 100) {
+          fixed(width: 500, height: 500) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -22,11 +22,10 @@ const Icon = () => {
         style={{
           margin: "10px auto",
           display: "block",
-          borderRadius: `100%`,
         }}
       />
     </div>
   )
 }
 
-export default Icon
+export default Logo

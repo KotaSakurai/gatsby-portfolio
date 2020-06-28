@@ -12,7 +12,11 @@ description: "Sakurawi Skills"
 
 - Ruby / Ruby on Railsを用いた規模の大きなWebアプリケーションの開発・運用。
 
-- git (GitHub) を用いて、バックエンドだけでなく、フロントエンド(haml, stimulus, jQuery, scss)の実装
+- Vue.jsを用いたフロントエンドの開発
+
+- git (GitHub)
+
+- フロントエンド(haml, stimulus, jQuery, Vue.js, scss)の実装
 
 - CircleCIを利用したdeploy、自動テスト(RSpec, jest)や静的解析(rubocop, breakman, eslint, ...)を開発基盤
 
@@ -24,7 +28,7 @@ description: "Sakurawi Skills"
 
 - wordpressのサイト構築
   - https://tex-products.com/
-  - google dmains
+  - google domains
   - AWS light sail利用
 
 ## SEO

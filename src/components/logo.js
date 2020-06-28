@@ -7,7 +7,7 @@ const Logo = () => {
     query {
       file: file(absolutePath: { regex: "/my_portfolio.png/" }) {
         childImageSharp {
-          fixed(width: 500, height: 500) {
+          fixed(width: 300, height: 300) {
             ...GatsbyImageSharpFixed
           }
         }

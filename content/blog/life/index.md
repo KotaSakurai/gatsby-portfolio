@@ -33,9 +33,24 @@ description: "Life values. What is my treasure?"
 ### Have been to
 
 - 🇯🇵 Japan
-
-- Canada
-- America
+- 🇨🇦 Canada
+- 🇺🇸 America
   - NY
   - San Francisco
   - Las Vegas
+- 🇹🇼 Taiwan
+- 🇹🇭 Thai
+- 🇰🇭 Cambodia
+- 🇻🇳 Vietnam
+- 🇵🇪 Peru
+- 🇧🇴 Bolivia
+- 🇫🇷 France
+- 🇮🇹 Italia
+- 🇸🇬 Singapore
+- 🇪🇬 Egypt
+- 🇲🇦 Morocco
+- 🇷🇺 Rossiya
+- 🇰🇷 Korea
+- 🇨🇳 China
+- 🇮🇳 India
+- 🇭🇰 HongKong

@@ -1,22 +1,40 @@
 ---
-title: My Skills
-date: "2020-05-28"
-description: "Sakurawi Skills"
+title: Skills
+date: "2020-12-28"
+description: "Skills."
 ---
 
-# できること
-自身のスキルセット、できること
+スキルセット、できること.得意なこと.
 
----
 ## プログラミング
+主にバックエンドの実装経験が多いです.
 
-- Ruby / Ruby on Railsを用いた規模の大きなWebアプリケーションの開発・運用。
+Webアプリケーションの開発・運用.
 
-- Vue.jsを用いたフロントエンドの開発
+### BackEnd
+- Ruby / Ruby on Rails
+  - Rspec
+
+### FrontEnd
+- Vue.js
+- stimulus
+- jQruery
+- haml / slim
+- scss
+- gatsby js
+
+### Other
 
 - git (GitHub)
 
-- フロントエンド(haml, stimulus, jQuery, Vue.js, scss)の実装
+- AWS
+  - lambda
+  - lightsail
+  - CloudWatch
+  - IAM
+  - S3
+  - EC2
+  - DynamoDB
 
 - CircleCIを利用したdeploy、自動テスト(RSpec, jest)や静的解析(rubocop, breakman, eslint, ...)を開発基盤
 
@@ -24,26 +42,34 @@ description: "Sakurawi Skills"
 
 - SEO
 
-- AWS (lambda, lightsail)
+## スクラム
+- 基礎的なスクラム開発の知識があります.
+- カンバン運用はアナログが好みでした
 
+## メディア
 - wordpressのサイト構築
   - https://tex-products.com/
   - google domains
   - AWS light sail利用
 
-## SEO
-### SEOに関するスキル
+## SEO skills
 - 記事執筆
 - 構成
   - タイトル
   - 見出し構成
   - ライティング
+- 画像軽量化
+- meta tagの設定
 
-### 実績
+
+
+### SEO実績
 - 自身の作ったブログで累計250万PV達成
 - 2016 ~
-- Railsで一部のワードでの検索で１ページ目
+- Rails関係の記事で一部のワード検索で１ページ目
 
+## Twitter card作成
+<img src="./card.png" width="200">
 
 ## アイコン作成
 アイコンのイラストを書いたりもしています。

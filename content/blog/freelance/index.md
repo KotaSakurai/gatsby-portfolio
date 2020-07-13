@@ -1,7 +1,7 @@
 ---
 title: Freelance
 date: "2020-05-28"
-description: "Sakurawi Freelance"
+description: "Freelance projects."
 ---
 
 # 業務のお手伝い
@@ -16,6 +16,8 @@ description: "Sakurawi Freelance"
   - テスト導入(Rspec)
   - テストコード実装
 - Vue.jsによるフロントエンドの実装
+- データベース設計
+
 
 ### 期間
 2020/6 ~

@@ -1,10 +1,10 @@
 ---
-title: My Resume
-date: "2020-05-12"
-description: "Sakurawi Resume"
+title: Resume
+date: "2020-10-12"
+description: "My resume, this is my past carrer. My development projects."
 ---
 
-自分のResume(履歴書)です。
+Resume(履歴書)です。
 
 # キャリアサマリ
 
@@ -17,7 +17,6 @@ Webアプリケーションエンジニア​として、1年間の座学�
 エンジニアリングだけでなく、チーム作りやアジャイル開発を学習。
 
 Ruby on Railsを中心として基礎的な Webアプリケーションの構築、Webセキュリティ、DB設計や自動テストなど幅広く経験。
-
 
 # 職務経歴
 

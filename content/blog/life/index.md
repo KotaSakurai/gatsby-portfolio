@@ -28,7 +28,7 @@ description: "Life values. What is my treasure?"
 
 旅行で得られる体験値はなにものにも変えられないもの。
 
-僕を形成する多くの体験は、旅行の中になったと思います。
+僕を形成する多くの体験は、旅行の中にあったと思います。
 
 ### Have been to
 

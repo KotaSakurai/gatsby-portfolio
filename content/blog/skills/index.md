@@ -1,7 +1,7 @@
 ---
 title: Skills
 date: "2020-12-28"
-description: "Skills."
+description: "Development and other Skills."
 ---
 
 スキルセット、できること.得意なこと.

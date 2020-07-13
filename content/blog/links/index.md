@@ -1,7 +1,7 @@
 ---
 title: Links
 date: "2020-05-10"
-description: "Sakurawi Links"
+description: "more about Sakurawi."
 ---
 
 # GitHub

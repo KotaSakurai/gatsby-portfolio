@@ -13,30 +13,30 @@ Webアプリケーションの開発・運用.
 
 ### BackEnd
 - Ruby / Ruby on Rails
-  - Rspec
+  - RSpec
 
 ### FrontEnd
 - Vue.js
 - stimulus
-- jQruery
+- jQuery
+- Gatsby.js
 - haml / slim
 - scss
-- gatsby js
 
 ### Other
 
 - git (GitHub)
 
 - AWS
-  - lambda
-  - lightsail
+  - Lambda
+  - Lightsail
   - CloudWatch
   - IAM
   - S3
   - EC2
   - DynamoDB
 
-- CircleCIを利用したdeploy、自動テスト(RSpec, jest)や静的解析(rubocop, breakman, eslint, ...)を開発基盤
+- CircleCIを利用したdeploy、自動テスト(RSpec, jest)や静的解析(rubocop, breakman, ESlint, ...)を開発基盤
 
 - 分析 MySQL, redshift
 
@@ -72,7 +72,7 @@ Webアプリケーションの開発・運用.
 <img src="./card.png" width="200">
 
 ## アイコン作成
-アイコンのイラストを書いたりもしています。
+アイコンのイラストを書いたりもしています.
 
 ### 友人のアイコン
 <img src="./w.png" width="200">

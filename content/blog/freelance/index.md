@@ -18,9 +18,25 @@ description: "Freelance projects."
 - Vue.jsによるフロントエンドの実装
 - データベース設計
 
-
 ### 期間
 2020/6 ~
+
+---
+
+## ナカムラグラフ
+
+https://www.nakamuragraph.com/
+
+### 内容
+- サーバの移行
+  - wordpressアップデート
+  - メールサーバ
+- デザインの実装
+
+### 期間
+2020/6 ~ 2020/7
+
+---
 
 ## 株式会社LinQ
 
@@ -29,6 +45,8 @@ description: "Freelance projects."
 
 ### 期間
 2020/4 - 2020/5
+
+---
 
 ## 株式会社アドレス
 

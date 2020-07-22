@@ -12,6 +12,10 @@ https://github.com/KotaSakurai
 
 https://sakurawi.hateblo.jp/
 
+# Note
+
+https://note.com/sakurawi
+
 # SpeakerDeck
 
 https://speakerdeck.com/kotasakurai

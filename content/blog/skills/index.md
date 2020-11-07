@@ -1,6 +1,6 @@
 ---
 title: Skills
-date: "2020-12-28"
+date: "2020-11-17"
 description: "Development and other Skills."
 ---
 

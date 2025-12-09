@@ -1,21 +1,21 @@
 ---
 title: Skills
-date: "2020-11-17"
+date: "2025-12-10"
 description: "Development and other Skills."
 ---
 
-スキルセット、できること.得意なこと.
+スキルセット、できること、得意なこと。
 
 ## プログラミング
-主にバックエンドの実装経験が多いです.
+主にバックエンドの実装経験が多いです。
 
-Webアプリケーションの開発・運用.
+Webアプリケーションの開発・運用。
 
-### BackEnd
+### バックエンド
 - Ruby / Ruby on Rails
   - RSpec
 
-### FrontEnd
+### フロントエンド
 - Vue.js
 - stimulus
 - jQuery
@@ -36,47 +36,32 @@ Webアプリケーションの開発・運用.
   - EC2
   - DynamoDB
 
-- CircleCIを利用したdeploy、自動テスト(RSpec, jest)や静的解析(rubocop, breakman, ESlint, ...)を開発基盤
+- CircleCIを利用したdeploy、自動テスト(RSpec, jest)や静的解析(rubocop, brakeman, ESLint, ...)の構築経験
 
-- 分析 MySQL, redshift
-
-- SEO
+- 分析 MySQL, Redshift
 
 ## スクラム
-- 基礎的なスクラム開発の知識があります.
-- カンバン運用はアナログが好みでした
+- 基礎的なスクラム開発の知識があります。
+- カンバン運用はアナログが好みでした。
 
 ## メディア
 - wordpressのサイト構築
-  - https://tex-products.com/
-  - google domains
-  - AWS light sail利用
+  - AWS light sail
 
-## SEO skills
+## SEO
 - 記事執筆
 - 構成
   - タイトル
   - 見出し構成
   - ライティング
 - 画像軽量化
-- meta tagの設定
-
-
 
 ### SEO実績
-- 自身の作ったブログで累計250万PV達成
-- 2016 ~
-- Rails関係の記事で一部のワード検索で１ページ目
+- 自身の作ったブログで累計250万PV達成（2016年〜2020年）
+- Rails関係の記事で一部のワード検索で１ページ目を獲得
 
-## Twitter card作成
-<img src="./card.png" width="200">
+## Twitterカード作成
 
-## アイコン作成
-アイコンのイラストを書いたりもしています.
-
-### 友人のアイコン
-<img src="./w.png" width="200">
-
-### その他イラスト
-<img src="./girl.png" width="200">
-<img src="./woman.png" width="200">
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="./card.png" style="max-width: 250px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" alt="Twitter Card">
+</div>

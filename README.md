@@ -1,99 +1,233 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's blog starter
-</h1>
+# Sakurawi Portfolio
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Kota Sakuraiのポートフォリオサイトです。Gatsbyを使用して構築されています。
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+## 🌐 公開URL
 
-## 🚀 Quick start
+**https://www.sakurawi.dev/**
 
-1.  **Create a Gatsby site.**
+## 🚀 ローカル開発
 
-    Use the Gatsby CLI to create a new site, specifying the blog starter.
+### 前提条件
 
-    ```shell
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
-    ```
+- Node.js (v14以上推奨)
+- npm または yarn
+- vips ライブラリ（画像処理に必要）
 
-1.  **Start developing.**
+### vipsのインストール
 
-    Navigate into your new site’s directory and start it up.
+```bash
+# macOS (Homebrew)
+brew install vips
+```
 
-    ```shell
-    cd my-blog-starter/
-    gatsby develop
-    ```
+### セットアップ
 
-1.  **Open the source code and start editing!**
+1. **依存関係のインストール**
 
-    Your site is now running at `http://localhost:8000`!
+   ```bash
+   npm install
+   ```
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+2. **開発サーバーの起動**
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+   ```bash
+   export NODE_OPTIONS=--openssl-legacy-provider
+   npm run develop
+   ```
 
-## 🧐 What's inside?
+   サイトは `http://localhost:8000` で起動します。
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+   GraphQLエクスプローラーは `http://localhost:8000/___graphql` でアクセスできます。
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+3. **本番ビルド**
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+   ```bash
+   export NODE_OPTIONS=--openssl-legacy-provider
+   npm run build
+   ```
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+   ビルドされたファイルは `public/` ディレクトリに出力されます。
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+4. **ビルドしたサイトのプレビュー**
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+   ```bash
+   export NODE_OPTIONS=--openssl-legacy-provider
+   npm run serve
+   ```
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+   サイトは `http://localhost:9000` で起動します。
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+### 便利なコマンド
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+```bash
+# コードフォーマット
+npm run format
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+# キャッシュのクリア
+npm run clean
+```
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+## 📁 プロジェクト構成
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+```
+.
+├── content/          # ブログ記事のマークダウンファイル
+│   └── blog/
+│       ├── life/     # Life ページ
+│       ├── skills/   # Skills ページ
+│       ├── resume/   # Resume ページ
+│       └── ...
+├── src/              # ソースコード
+│   ├── components/   # Reactコンポーネント
+│   ├── pages/        # ページコンポーネント
+│   ├── templates/    # ページテンプレート
+│   └── utils/        # ユーティリティ
+├── static/           # 静的ファイル
+├── gatsby-config.js  # Gatsby設定ファイル
+├── gatsby-node.js    # Gatsby Node API
+└── package.json      # 依存関係
+```
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+## 🚢 デプロイ
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+このサイトは **AWS Amplify** を使用して自動デプロイされています。
 
-## 🎓 Learning Gatsby
+### デプロイ方法
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+1. **変更をコミット**
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+   ```bash
+   git add .
+   git commit -m "Update content"
+   ```
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+2. **GitHubにプッシュ**
 
-## 💫 Deploy
+   ```bash
+   git push origin master
+   ```
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
+3. **自動デプロイ**
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-blog)
+   GitHubにプッシュすると、AWS Amplifyが自動的に以下を実行します：
+   - ビルド
+   - デプロイ
+   - CloudFrontキャッシュの更新
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+   数分後に https://www.sakurawi.dev/ に変更が反映されます。
+
+### デプロイ先の詳細
+
+- **ホスティング**: AWS Amplify
+- **CDN**: Amazon CloudFront
+- **ドメイン**: sakurawi.dev (Google Domainsで管理)
+- **リポジトリ**: https://github.com/KotaSakurai/gatsby-portfolio
+
+## 🔧 トラブルシューティング
+
+### Node.js v22でビルドエラーが出る場合
+
+Node.js v22では、古いWebpackとの互換性問題があります。以下の環境変数を設定してください：
+
+```bash
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+
+または、`package.json`のスクリプトに追加：
+
+```json
+"scripts": {
+  "build": "NODE_OPTIONS=--openssl-legacy-provider gatsby build",
+  "develop": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
+  "serve": "NODE_OPTIONS=--openssl-legacy-provider gatsby serve"
+}
+```
+
+### sharpパッケージのビルドエラー
+
+`vips`ライブラリがインストールされていることを確認してください：
+
+```bash
+brew install vips
+rm -rf node_modules package-lock.json
+npm install
+```
+
+## 📝 コンテンツの編集
+
+ブログ記事は `content/blog/` ディレクトリ内のマークダウンファイルで管理されています。
+
+各記事は以下の形式で記述します：
+
+```markdown
+---
+title: ページタイトル
+date: "2025-12-10"
+description: "ページの説明"
+---
+
+# 見出し
+
+本文...
+```
+
+### 画像の追加方法
+
+各ブログ記事のディレクトリに画像ファイルを配置し、マークダウンから相対パスで参照します。
+
+**手順:**
+
+1. **画像ファイルを配置**
+
+   記事と同じディレクトリに画像を配置します：
+
+   ```
+   content/blog/life/
+   ├── index.md
+   └── photo.jpg    ← ここに画像を追加
+   ```
+
+2. **マークダウンで参照**
+
+   ```markdown
+   ![画像の説明](./photo.jpg)
+   ```
+
+**例:**
+
+```markdown
+---
+title: Life
+date: "2025-12-10"
+description: "Life values"
+---
+
+## 旅行の思い出
+
+![旅行の写真](./travel.jpg)
+
+素晴らしい景色でした！
+```
+
+**対応している画像形式:**
+- `.jpg` / `.jpeg`
+- `.png`
+- `.gif`
+- `.webp`
+
+**注意:**
+- 画像は自動的に最適化されます（gatsby-plugin-sharpによる）
+- レスポンシブ対応の画像が自動生成されます
+- 相対パス（`./`）を使用してください
+
+## 📄 ライセンス
+
+MIT
+
+## 👤 Author
+
+**Kota Sakurai**
+
+- Website: https://www.sakurawi.dev/
+- GitHub: [@KotaSakurai](https://github.com/KotaSakurai)

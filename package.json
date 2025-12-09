@@ -59,6 +59,15 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "overrides": {
-    "graphql": "^16.8.0"
+    "graphql": "^16.8.0",
+    "axios": "^1.7.4",
+    "cookie": "^0.7.2",
+    "got": "^11.8.6",
+    "parse-path": "^7.0.0",
+    "parse-url": "^8.1.0",
+    "trim": "0.0.3",
+    "ua-parser-js": "^1.0.33",
+    "ws": "^8.17.1",
+    "micromatch": "^4.0.8"
   }
 }

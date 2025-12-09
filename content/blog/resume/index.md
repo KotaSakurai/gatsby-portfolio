@@ -1,6 +1,6 @@
 ---
 title: Resume
-date: "2025-12-10"
+date: "2025-12-07"
 description: "My resume, this is my past career. My development projects."
 ---
 
@@ -106,11 +106,6 @@ Ruby on Railsでクラス設計・DB設計・自動テストの実装経験が�
 - AWS (lambda, lightsail)
 
 - iOS開発 (Swift)
-
-# リンク
-
-- 🔗 GitHub: [@KotaSakurai](https://github.com/KotaSakurai)
-- 📱 個人プロダクト: [Productsページ](/products/)
 
 # 資格
 

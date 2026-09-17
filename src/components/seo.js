@@ -58,10 +58,6 @@ const SEO = ({ description, lang, meta, title }) => {
           content: `summary`,
         },
         {
-          name: `twitter:creator`,
-          content: site.siteMetadata.social.twitter,
-        },
-        {
           name: `twitter:title`,
           content: title,
         },
@@ -69,7 +65,18 @@ const SEO = ({ description, lang, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ].concat(meta)}
+      ]
+        .concat(
+          site.siteMetadata.social.twitter
+            ? [
+                {
+                  name: `twitter:creator`,
+                  content: site.siteMetadata.social.twitter,
+                },
+              ]
+            : []
+        )
+        .concat(meta)}
     />
   )
 }

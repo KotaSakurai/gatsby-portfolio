@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "gatsby-portfolio",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Kota Sakurai's portfolio site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kota Sakurai",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/KotaSakurai/gatsby-portfolio/issues"
   },
   "dependencies": {
     "gatsby": "^5.15.0",
@@ -39,7 +39,7 @@
   "devDependencies": {
     "prettier": "2.0.5"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://www.sakurawi.dev/",
   "keywords": [
     "gatsby"
   ],
@@ -47,7 +47,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/KotaSakurai/gatsby-portfolio.git"
   },
   "scripts": {
     "build": "gatsby build",

@@ -26,17 +26,17 @@
 - [ ] **あきんど (Akindo)** — ポケカ買取価格の横断検索 + AI 売却診断 — https://apps.apple.com/jp/app/id6759326307 (v2.5, Shopping。収益系・サブスクあり)
 - [ ] **ピタブロック (PitaBlock)** — ブロックパズル — https://apps.apple.com/jp/app/id6779359759 (v1.3, Games。広告収益化)
 - [ ] **ピタソート (PitaSort)** — ウェーブ式エンドレスのソートパズル — https://apps.apple.com/jp/app/id6782442281 (v1.0, Games。広告収益化)
-- [ ] **Photence** — 写真 1 枚 + 一言から AI が 4 種類のテキストを生成し無限キャンバスで閲覧する SNS — https://apps.apple.com/jp/app/id6783860435 (v1.0, Photo & Video。SwiftUI + Supabase + OpenAI。技術アピール度高)
-- [ ] **CoYatteTotte** — 理想の構図カメラ — https://apps.apple.com/jp/app/id1523595702 (v3.3, Photo & Video。現サイト掲載済み・最古参 2020〜)
-- [ ] **Chum** — 推し活のチェキ管理 — https://apps.apple.com/jp/app/id6748934376 (v1.8, Entertainment)
-- [ ] **FocusU** — 先延ばし防止の集中タスク — https://apps.apple.com/jp/app/id6755238610 (v1.2, Productivity。現サイト掲載済み)
-- [ ] **Draftrip** — 旅行の共同編集・投票 — https://apps.apple.com/jp/app/id6756642488 (v1.7, Travel。Firebase。現サイトでは「停止中」表記だが実際は公開中 → 要訂正)
-- [ ] **PackPocket** — バックパッカー向け地図メモ共有 — https://apps.apple.com/jp/app/id6756081121 (v1.9, Social Networking)
+- [x] **Photence** — 写真 1 枚 + 一言から AI が 4 種類のテキストを生成し無限キャンバスで閲覧する SNS — https://apps.apple.com/jp/app/id6783860435 (v1.0, Photo & Video。SwiftUI + Supabase + OpenAI。技術アピール度高)
+- [x] **CoYatteTotte** — 理想の構図カメラ — https://apps.apple.com/jp/app/id1523595702 (v3.3, Photo & Video。現サイト掲載済み・最古参 2020〜)
+- [x] **Chum** — 推し活のチェキ管理 — https://apps.apple.com/jp/app/id6748934376 (v1.8, Entertainment)
+- [x] **FocusU** — 先延ばし防止の集中タスク — https://apps.apple.com/jp/app/id6755238610 (v1.2, Productivity。現サイト掲載済み)
+- [x] **Draftrip** — 旅行の共同編集・投票 — https://apps.apple.com/jp/app/id6756642488 (v1.7, Travel。Firebase。Products ページを iOS 版(公開中・App Store リンク)に差し替え済み 2026-09-19)
+- [x] **PackPocket** — バックパッカー向け地図メモ共有 — https://apps.apple.com/jp/app/id6756081121 (v1.9, Social Networking)
 - [ ] **HBD** — 誕生日とプレゼント記録 — https://apps.apple.com/jp/app/id6776190480 (v1.0, Lifestyle)
-- [ ] **Kakko** — 地図エリアメモ — https://apps.apple.com/jp/app/id6748660227 (v1.3, Travel)
-- [ ] **Routi** — ルーティンタイマー — https://apps.apple.com/jp/app/id6749018606 (v1.1, Lifestyle)
+- [x] **Kakko** — 地図エリアメモ — https://apps.apple.com/jp/app/id6748660227 (v1.3, Travel)
+- [x] **Routi** — ルーティンタイマー — https://apps.apple.com/jp/app/id6749018606 (v1.1, Lifestyle)
 - [ ] **Trend Catcher** — 写真を Google Maps 風カードに加工 — https://apps.apple.com/jp/app/id6755615573 (v1.0, Graphics & Design)
-- [ ] **PDreams** — ポケカ購入のコンビニ巡回マップ — https://apps.apple.com/jp/app/id6751425161 (v3.7, Lifestyle。個人ツール寄り)
+- [x] **PDreams** — ポケカ購入のコンビニ巡回マップ — https://apps.apple.com/jp/app/id6751425161 (v3.7, Lifestyle。個人ツール寄り)
 
 ### ストア非公開(リンク不可・実績として言及する場合のみチェック)
 
@@ -62,7 +62,7 @@
 
 - [ ] **GitHub** — https://github.com/KotaSakurai
 - [ ] **はてなブログ** — https://sakurawi.hateblo.jp/
-- [ ] **note(個人)** — https://note.com/sakurawi
+- [ ] **note(個人)** — https://note.com/sakurawi (非掲載と決定・Links ページから削除済み 2026-09-19)
 - [ ] **SpeakerDeck** — https://speakerdeck.com/kotasakurai
 - [ ] **Wantedly** — https://www.wantedly.com/users/7789188
 - [ ] **ブクログ** — https://booklog.jp/users/diol25
@@ -88,7 +88,7 @@
 - [x] manifest / package.json がスターター名義のまま → 修正済み(2026-09-18)
 - [x] 無関係な `vue.config.js` が残存 → 削除済み(2026-09-18)
 - [ ] Links / Freelance ページが 2020 年から未更新(frontmatter date も古く一覧最下部に沈む)
-- [ ] Products ページ: 6 件中 3 件が停止中表記、Draftrip は実際には公開中(要訂正)。公開中アプリ 14 本が未反映
+- [ ] Products ページ: 2列カードグリッド化済み(2026-09-19)。掲載 11 カード = Crumb + 公開中アプリ 9 本(Draftrip / CoYatteTotte / Chum / PackPocket / Kakko / Photence / Routi / PDreams / FocusU)+ Dekiita(停止中表記)。未掲載の公開中アプリ: あきんど / PitaBlock / PitaSort / HBD / Trend Catcher
 - [ ] Life ページ「43 countries」に対し列挙は 19 カ国
 - [ ] `src/components/bio.js` は未使用デッドコード(参照する `profile-pic.jpg` も欠落)
 - [ ] `content/blog/skills/` に未参照画像 3 枚(girl.png / woman.png / w.png)

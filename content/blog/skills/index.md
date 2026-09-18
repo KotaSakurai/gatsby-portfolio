@@ -1,10 +1,18 @@
 ---
 title: Skills
-date: "2025-12-08"
+date: "2026-09-19"
 description: "Development and other Skills."
 ---
 
 スキルセット、できること、得意なこと。
+
+## AI エージェント開発
+
+Claude Code / Codex などのコーディングエージェントを日常的に活用し、企画〜実装〜リリース〜運用・分析までを個人で高速に回しています。
+
+- iOS アプリ個人開発(Swift / SwiftUI)— 現在 14 本を App Store で公開中
+- Cloudflare Workers / D1 での軽量バックエンド構築
+- GA4 / Search Console を用いた効果測定・分析
 
 ## プログラミング
 主にバックエンドの実装経験が多いです。

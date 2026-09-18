@@ -1,6 +1,6 @@
 ---
 title: Links
-date: "2020-05-10"
+date: "2026-09-19"
 description: "more about Sakurawi."
 ---
 
@@ -11,10 +11,6 @@ https://github.com/KotaSakurai
 # blog
 
 https://sakurawi.hateblo.jp/
-
-# Note
-
-https://note.com/sakurawi
 
 # SpeakerDeck
 

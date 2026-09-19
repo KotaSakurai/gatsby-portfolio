@@ -1,6 +1,7 @@
 ---
 title: Skills
 date: "2026-09-19"
+order: 5
 description: "Development and other Skills."
 ---
 

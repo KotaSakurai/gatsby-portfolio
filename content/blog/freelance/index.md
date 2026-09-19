@@ -1,6 +1,7 @@
 ---
 title: Freelance
 date: "2020-05-28"
+order: 7
 description: "Freelance projects."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Products
 date: "2026-09-19"
+order: 2
 description: "Products made by me."
 ---
 

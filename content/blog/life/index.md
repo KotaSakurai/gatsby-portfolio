@@ -1,6 +1,7 @@
 ---
 title: Life
 date: "2025-12-10"
+order: 1
 description: "Life values. What is my treasure?"
 ---
 
